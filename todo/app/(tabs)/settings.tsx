@@ -1,4 +1,4 @@
-import useTheme from '@/hooks/use-color-scheme';
+import useTheme from '@/hooks/useTheme';
 import React from 'react';
 import { TouchableOpacity, View } from 'react-native';
 
