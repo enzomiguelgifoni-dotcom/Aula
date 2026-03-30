@@ -11,7 +11,7 @@ export interface ColorScheme {
   success: string;
   warning: string;
   danger: string;
-  shadow: string;
+  shadow: string;z000000000000077
   gradients: {
     background: [string, string];
     surface: [string, string];
