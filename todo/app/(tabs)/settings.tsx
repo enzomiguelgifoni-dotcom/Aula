@@ -1,10 +1,13 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import useTheme from '@/hooks/use-color-scheme';
+import React from 'react';
+import { TouchableOpacity, View } from 'react-native';
 
 const settings = () => {
+  const { toggleDarkMode } = useTheme();
+
   return (
     <View>
-      <Text>settings</Text>
+      <TouchableOpacity onPress={toggleDarkMode}>MUDA TEMA</TouchableOpacity>
     </View>
   )
 }
